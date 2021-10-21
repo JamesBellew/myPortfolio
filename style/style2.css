@@ -1,0 +1,776 @@
+/*
+General CSS styling
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23212129'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23111115'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.1' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.fp-viewing-section1 #fp-nav ul li a span {
+  background: #03dac6;
+}
+.fp-viewing-section2 #fp-nav ul li a span {
+  background: #03dac6;
+}
+.fp-viewing-section3 #fp-nav ul li a span {
+  background: #03dac6;
+}
+.fp-viewing-section4 #fp-nav ul li a span {
+  background: #03dac6;
+}
+.fp-viewing-section5 #fp-nav ul li a span {
+  background: #03dac6;
+}
+
+/*
+The below css is for page one of the website
+*/
+.p1 {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  grid-template-areas:
+    "box3 box3 box3 box3 box3"
+    "box1 box1 box1 box2 box2"
+    "box1 box1 box1 box2 box2"
+    "box1 box1 box1 box2 box2"
+    "box4 box4 box4 box2 box2"
+    "box4 box4 box4 box2 box2";
+}
+.socials {
+  position: absolute;
+  right: 0%;
+  top: 2%;
+  width: 10vw;
+  height: 5vh;
+}
+.symbols_box {
+  position: absolute;
+  left: 2%;
+  width: 10vw;
+
+  height: 15vh;
+  bottom: 2%;
+}
+.symbols_box #square_1 {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+.symbols_box #square_2 {
+  position: absolute;
+  bottom: 35%;
+  right: 20%;
+}
+.box1 {
+  grid-area: box1;
+}
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+.box4 {
+  grid-area: box4;
+}
+.nav_bar {
+  position: absolute;
+
+  width: 60%;
+  height: 10vh;
+  right: 0%;
+}
+.logo {
+  position: absolute;
+  display: none;
+  border-radius: 5px;
+  top: 1%;
+  height: 7vh;
+  left: 3%;
+  width: 4%;
+  background-color: #525258;
+}
+#nav_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav_li {
+  float: left;
+  position: relative;
+  left: 30%;
+  color: #dfdfdf;
+  padding: 5%;
+}
+
+#nav_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.muted {
+  position: relative;
+  left: 5%;
+  color: #969899;
+  font-size: 1.2rem;
+  top: 35%;
+}
+span {
+  color: #03dac6;
+  font-size: 5.5rem;
+}
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.socials {
+  display: inline;
+  position: relative;
+  width: 40%;
+  top: 70vh;
+  left: 90%;
+}
+.box1 h1 {
+  /*
+  font-size: 4.5rem;
+  position: relative;
+  left: 5%;
+  letter-spacing: 7px;
+  margin-top: 3%;
+  color: white;
+  top: 20%;
+  */
+  position: relative;
+  left: 5%;
+
+  font-weight: bold;
+  color: #c9d0d4;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 4.8rem;
+  top: 25%;
+  font-weight: 100;
+  line-height: 50px;
+  letter-spacing: 5px;
+  padding: 0 0 40px;
+}
+.about {
+  color: #969899;
+  position: relative;
+  bottom: 15vh;
+  left: 5%;
+}
+.skills {
+  position: relative;
+  width: 40%;
+  height: 5vh;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+  font-size: 1rem;
+  border-radius: 2px;
+  left: 50%;
+
+  top: 76%;
+}
+.span_skill {
+  color: #03dac6;
+  font-size: 1rem;
+}
+.skill_muted {
+  position: relative;
+  color: #969899;
+  left: 5%;
+  top: 25vh;
+}
+#me {
+  position: relative;
+  top: 30%;
+}
+
+.view_projects_btn {
+  position: relative;
+  width: 1.2vw;
+  height: 6vh;
+  top: 0%;
+  background-color: transparent;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #212129;
+  border: 1px solid #ffffff;
+  left: 5%;
+}
+.view_projects_btn p {
+  color: #03dac6;
+  position: absolute;
+  width: 100vw;
+  left: 170%;
+  display: inline;
+}
+.circle_btn {
+  height: 30%;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-top: 20%;
+}
+/*
+The below css is for page two of the website
+*/
+.p2 {
+  height: 100vh;
+
+  display: grid;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  color: #fff;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 200px;
+}
+
+.symbol {
+  position: relative;
+  border-radius: 50%;
+  background-color: #03dac6;
+  width: 30%;
+  height: 25%;
+  left: 37.5%;
+  margin-top: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.p2box1 h1 {
+  font-size: 2.5rem;
+  margin-top: 2%;
+  color: #969899;
+  text-align: center;
+}
+.p2box1 {
+  grid-column: 1 / 4;
+  grid-row: 1/1;
+}
+.p2 p {
+  position: relative;
+  margin-top: 3%;
+
+  left: 12.5%;
+  width: 75%;
+}
+.p2box3,
+.p2box4,
+.p2box2 {
+  background-color: #212129a6;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.p2box2 {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #212129a6;
+
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  grid-row: 2/7;
+}
+.p2box2:hover,
+.lang_card:hover,
+.p2box3:hover,
+.p2box4:hover {
+  border-radius: 10px;
+  transition-duration: 1s;
+  background-color: #03dac6;
+  color: white;
+}
+
+.p2box3 {
+  align-items: center;
+
+  text-align: center;
+  align-content: center;
+  background-color: red;
+  grid-row: 2/7;
+}
+
+.p2box4 {
+  align-items: center;
+
+  text-align: center;
+  align-content: center;
+  background-color: #212129a6;
+  grid-row: 2/7;
+}
+.p2box3 {
+  background-color: #212129a6;
+  grid-row: 2/7;
+}
+.p2box4 {
+  background-color: #212129a6;
+  grid-row: 2/7;
+}
+.stack_btn {
+  border: 1px solid #03dac6;
+  position: relative;
+  width: 50%;
+  height: 8%;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  top: 27.5%;
+}
+.skill_cards {
+  position: relative;
+  background-color: transparent;
+  width: 75%;
+
+  left: 12.5%;
+  height: 15%;
+}
+.lang_card {
+  background-color: #292931;
+  position: relative;
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 2%;
+
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  color: #ebebeb;
+  vertical-align: middle;
+  align-items: center;
+  height: 37.5%;
+}
+.button-group {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  height: 40%;
+}
+.img_full {
+  width: 60%;
+  height: 60%;
+
+  position: relative;
+  top: 20%;
+}
+.button-group p {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  top: 40%;
+}
+.button-group h3 {
+  text-align: center;
+  margin-top: 5%;
+  color: #dfdfdf;
+}
+.project_img {
+  position: relative;
+  width: 50%;
+  height: 60%;
+  left: 0%;
+  top: 0%;
+}
+.project_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.p3box1 {
+  background-color: blue;
+}
+#project_button {
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+  width: 40%;
+  left: 4.5%;
+  margin-left: 10px;
+  height: 20%;
+  top: 20%;
+}
+/*
+The below css is for page three of the website
+*/
+
+.p3 {
+  height: 100vh;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 5%;
+  right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+.right_side_project {
+  position: relative;
+  left: 55%;
+  height: 100%;
+  width: 45%;
+  background-color: #264653;
+}
+#show_project {
+  display: none;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 1%;
+  height: 98%;
+  background-color: rgb(255, 255, 255);
+  z-index: 150;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+#exit_project_btn {
+  position: absolute;
+  cursor: pointer;
+  font-size: 2rem;
+  top: 3%;
+  right: 3%;
+  color: #e76f51;
+}
+.p3 div {
+  width: 100%;
+}
+
+/*
+The below css is for page Four of the website
+*/
+.p4 {
+  height: 90vh;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 20px;
+}
+.p4 h1 {
+  color: #dfdfdf;
+  position: relative;
+  font-size: 3.5em;
+  top: 5%;
+}
+.p4 p {
+  position: relative;
+  top: 10%;
+  color: #dfdfdf;
+  width: 80%;
+  margin-top: 5%;
+}
+.p4 h4 {
+  position: relative;
+  top: 15%;
+  color: #e76f51;
+
+  font-size: 1.75rem;
+}
+.p4_right h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 6%;
+}
+.p4_right p {
+  color: #dfdfdf;
+}
+#p4p {
+  color: #969899;
+  position: relative;
+  top: 10%;
+}
+#project_card {
+  background-color: transparent;
+}
+.p4_btn_group {
+  position: relative;
+  width: 60%;
+  left: 10%;
+  height: 25%;
+  top: 12%;
+}
+.p5 {
+  height: 90vh;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 20px;
+}
+.contact_form_box {
+  background-color: #212129a6;
+  position: relative;
+  width: 70%;
+  left: 15%;
+  height: 80%;
+  top: 10%;
+}
+.contact_form_h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 80;
+  letter-spacing: 5px;
+  margin-top: 5%;
+}
+input[type="text"],
+input[type="email"] {
+  position: relative;
+  width: 80%;
+  color: #969899;
+  display: block;
+  left: 10%;
+  background-color: transparent;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #264653;
+}
+.form_submit {
+  position: relative;
+  width: 20%;
+  height: 4vh;
+  border-radius: 5px;
+  border: none;
+  left: 40%;
+  top: 10vh;
+  cursor: pointer;
+}
+.form_msg {
+}
+label {
+  color: white;
+  padding-left: 10%;
+}
+@media only screen and (min-width: 2200px) {
+  .p2,
+  .p3,
+  .p4 {
+    position: relative;
+    width: 70%;
+    left: 15%;
+  }
+  .p4_right h4 {
+    margin-bottom: 6%;
+  }
+}
+@media only screen and (max-width: 1950px) {
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    position: relative;
+    width: 80%;
+    left: 10%;
+  }
+  .p2 {
+    grid-gap: 50px;
+  }
+
+  .p2box4,
+  .p2box2,
+  .p2box3 {
+    grid-row: 3/8;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .p2 {
+    grid-gap: 20px;
+  }
+
+  .p2box4,
+  .p2box2,
+  .p2box3 {
+    grid-row: 3/7;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .p2,
+  .p3 {
+    position: relative;
+    width: 98%;
+    left: 1%;
+  }
+  .p4 {
+    position: relative;
+    width: 98%;
+  }
+  .view_projects_btn,
+  .skills {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 1346px) {
+  .p4 {
+    height: 210vh;
+  }
+}
+@media only screen and (max-width: 506px) {
+  #project_card {
+    height: 90%;
+    margin-top: 0%;
+  }
+  #project_card:nth-child(2) {
+    margin-top: 2%;
+  }
+  #project_card:nth-child(3) {
+    transform: translateY(-17%);
+  }
+  #project_card:nth-child(5) {
+    transform: translateY(-32%);
+  }
+  .p3_box1,
+  .p3_box4 {
+    display: none;
+  }
+  .p3 {
+    height: 100vh;
+    top: 5%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 0.8fr));
+    left: 10%;
+    grid-gap: 0px;
+  }
+
+  #nav_li {
+    left: 1%;
+    padding: 2%;
+  }
+
+  .symbol {
+    top: 2%;
+    width: 20%;
+    left: 10%;
+  }
+  .nav_bar {
+    padding: 0;
+    margin-left: 0%;
+    width: 60vw;
+    text-align: right;
+    left: 0%;
+  }
+  .about {
+    left: 3%;
+    position: absolute;
+    width: 45%;
+    top: 2%;
+    font-size: 0.85rem;
+  }
+
+  .p1 h1 {
+    font-size: 2.5rem;
+  }
+  .p1 h1 span {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  .muted {
+    margin-top: 0%;
+    position: relative;
+    top: 25%;
+  }
+  .skill_muted {
+    top: 27%;
+  }
+  .span_skill {
+    font-size: 1.5rem;
+  }
+  .view_projects_btn {
+    width: 80%;
+    left: 10%;
+    height: 15%;
+    top: 15%;
+  }
+  .skills {
+    width: 80%;
+    left: 10%;
+    top: 72%;
+  }
+
+  .p2box1 {
+    display: none;
+  }
+  .p2 {
+    height: 100vh;
+    grid-gap: 0;
+    height: 100vh;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .p2 p {
+    width: 80%;
+    left: 10%;
+  }
+  .stack_btn {
+    position: relative;
+  }
+  .p2box4 {
+    border: none;
+    grid-row: 7/10;
+    grid-column: 1 / 4;
+  }
+  .p2box2 {
+    border: none;
+    grid-column: 1 / 4;
+    grid-row: 1/4;
+  }
+  .p2box3 {
+    border: none;
+    grid-row: 4/7;
+    grid-column: 1 / 4;
+  }
+  .p2box3,
+  .p2box4,
+  .p2box2 {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+  }
+  .p1 h1:nth-child(3) {
+    top: 20%;
+  }
+  .p1 h1:nth-child(1) {
+    top: 30%;
+  }
+}
+
+/*
+
+annimations
+
+*/
