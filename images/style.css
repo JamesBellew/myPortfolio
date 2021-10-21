@@ -1,0 +1,258 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+#website_img_gallery {
+  position: relative;
+  width: 45%;
+  height: 35%;
+  border-radius: 5px;
+  background-color: red;
+  top: 20%;
+  z-index: 2;
+  left: 5%;
+}
+#made_site_p {
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  width: 42%;
+  left: 55%;
+}
+#project_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#how_made_site_header {
+  color: #e76f51;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 43%;
+  left: 55%;
+}
+#page1_h1 {
+  position: absolute;
+  width: 80px;
+  height: 69px;
+  left: 10%;
+  top: 25vh;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 69px;
+  /* identical to box height */
+  letter-spacing: 0.025em;
+}
+#page1_h1_2 {
+  position: absolute;
+
+  height: 69px;
+  left: 10%;
+  top: 33vh;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80px;
+  /* identical to box height */
+  letter-spacing: 0.025em;
+}
+#capital {
+  color: #2a9d8f;
+  font-size: 65px;
+}
+#sub_heading {
+  color: #264653;
+  position: relative;
+  top: 38vh;
+  left: 10%;
+  font-size: 1.3rem;
+}
+#sub_skills {
+  color: #969899;
+  position: relative;
+  top: 37vh;
+  left: 10%;
+}
+#skill {
+  color: #e76f51;
+  font-size: 1.25rem;
+}
+#page1_right {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  height: 100vh;
+  width: 35%;
+  background-color: #0b090a;
+}
+#skills_btn {
+  border: 1px solid #2a9d8f;
+  box-sizing: border-box;
+  background-color: #2a9d8f;
+  font-size: 1.2rem;
+  color: white;
+  width: 12%;
+  padding: 10px;
+  position: relative;
+  left: 55%;
+  top: 52vh;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 5px;
+}
+#projects_btn {
+  background-color: transparent;
+  border: 1px solid #2a9d8f;
+  box-sizing: border-box;
+  color: #2a9d8f;
+  font-size: 1.2rem;
+  width: 15%;
+  padding: 10px;
+  position: relative;
+  left: 45%;
+  top: 47vh;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 5px;
+}
+#nav_bar {
+  position: absolute;
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  height: 5vh;
+  left: 10%;
+  top: 2%;
+}
+#small_info {
+  color: #969899;
+  position: relative;
+  top: 10vh;
+  left: 10%;
+}
+#nav_bar a {
+  padding: 35px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.155em;
+  cursor: pointer;
+}
+#red_square_page1 {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+}
+#green1_square_page1 {
+  position: absolute;
+  bottom: 12%;
+  left: 1%;
+}
+#green_square_page1 {
+  position: absolute;
+  bottom: 7%;
+  left: 4%;
+}
+#green_square_page1_right2 {
+  position: absolute;
+  top: 25%;
+  right: 4%;
+}
+#green_square_page1_right1 {
+  position: absolute;
+  top: 30%;
+  right: 8%;
+}
+#logo {
+  position: relative;
+  left: 2%;
+  top: 1%;
+  width: 5%;
+  background-image: url(/images/logo.PNG);
+  background-size: cover;
+  border-radius: 5px;
+  height: 6.5vh;
+  background-color: black;
+}
+#socials {
+  position: absolute;
+  width: 40%;
+  height: 7vh;
+  align-items: center;
+
+  text-align: center;
+  right: 2%;
+  top: 1%;
+}
+#social_img {
+  position: relative;
+  width: 20%;
+  cursor: pointer;
+}
+#about_website_p {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  width: 45%;
+  bottom: 12%;
+}
+#about_website {
+  color: #e76f51;
+  font-size: larger;
+  position: absolute;
+  bottom: 43%;
+  left: 5%;
+}
+
+#project_lang {
+  color: #e76f51;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 37.5%;
+  left: 55%;
+}
+.page3 {
+  width: 100%;
+  height: 100vh;
+}
+#date_website {
+  color: #e76f51;
+  position: absolute;
+  left: 5%;
+  bottom: 37.5%;
+}
+#page_2 {
+  height: 100vh;
+  width: 100%;
+}
+#page2_divider {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+}
+#mini_gallery {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  border-radius: 5px;
+
+  bottom: -70%;
+  z-index: 2;
+  left: 55%;
+}
+#project_h1 {
+  position: relative;
+  top: 18%;
+  color: #264653;
+  left: 5%;
+  font-size: 2rem;
+}
