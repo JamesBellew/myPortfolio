@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
+      integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>James Bellew</title>
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section">
+      
+        <div class="p1">
+        
+          <div class="box1">
+            <h1 class="p1_hi">Hi,</h1>
+            <p class="about" id="anim1">James Bellew, Dundalk, Louth</p>
+            <p class="skill_muted" id="anim1">
+              Experienced in <span class="span_skill">J</span>ava
+              <span class="span_skill">C</span>#
+              <span class="span_skill">P</span>HP
+              <span class="span_skill">J</span>avaScript
+            </p>
+            <h1 class="p1_me">I'm <span>J</span>ames</h1>
+            <p class="muted" id="anim1">
+              Software Developer | Computer Science Graduate
+            </p>
+          </div>
+
+          <div class="box3">
+            <div class="logo"></div>
+            <div class="nav_bar">
+              <ul id="nav_ul">
+                <li id="nav_li"><a href="#section3">Projects</a></li>
+                <li id="nav_li"><a href="#section2">Skills</a></li>
+                <li id="nav_li"><a href="#section4">About</a></li>
+                <li id="nav_li">
+                  <a href="#section5" style="color: #03dac6">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br>
+  
+          <div class="box4">
+            <div href="#section3" class="view_projects_btn" id="anim1">
+              <div
+                class="circle_btn"
+                href="#section3"
+                style="color: #212129"
+                class="href"
+              ></div>
+              <p>Learn more ..</p>
+            </div>
+          </div>
+          
+        </div>
+        
+
+       
+        <!-- <div class="symbols_box">
+          <img id="square_1" src="./images/Rectangle 3 (Stroke)-1.png" alt="" />
+          <img src="./images/Rectangle 4 (Stroke).png" alt="" id="square_2" />
+        </div>
+      </div> -->
+
+      <div class="section">
+        <div class="p2">
+          <div class="p2box1">
+            <h1>Tech Stack</h1>
+          </div>
+
+          <div class="p2box2" id="skill_card">
+            <div class="symbol">
+              <img
+                src="/images/ic_perm_data_setting_24px.svg"
+                class="img_full"
+                alt=""
+              />
+            </div>
+            <h1>Back-end</h1>
+            <p>
+              Experienced in creating well structured back end systems fitted to
+              any needs and build with scalability and security at the center of
+              it all
+            </p>
+            <button class="stack_btn">All Back-end</button>
+            <div class="skill_cards">
+              <div class="lang_card">Java</div>
+              <div class="lang_card">SQL</div>
+              <div class="lang_card">SQL-Server</div>
+              <div class="lang_card">PHP</div>
+              <div class="lang_card">C#</div>
+              <div class="lang_card">TypeScript</div>
+            </div>
+          </div>
+          <div class="p2box3">
+            <div class="symbol">
+              <img src="/images/pencil.svg" class="img_full" alt="" />
+            </div>
+            <h1>Front-end</h1>
+            <p>
+              Experienced in modern UI-UX design trends, with an emphases on
+              minimalistic front-end designs using a variaty of front-end
+              frameworks
+            </p>
+            <button class="stack_btn">Learn More</button>
+            <div class="skill_cards">
+              <div class="lang_card">HTML</div>
+              <div class="lang_card">Javascript</div>
+              <div class="lang_card">CSS</div>
+              <div class="lang_card">SCSS</div>
+              <div class="lang_card">GSAP</div>
+              <div class="lang_card">Bootstrap</div>
+              <div class="lang_card">Angular</div>
+            </div>
+          </div>
+          <div class="p2box4">
+            <div class="symbol">
+              <img src="/images/ic_dvr_48px.svg" class="img_full" alt="" />
+            </div>
+            <h1>Testing</h1>
+            <p>
+              Experienced in modern UI-UX design trends, with an emphases on
+              minimalistic front-end designs using a variaty of front-end
+              frameworks
+            </p>
+            <button class="stack_btn">Learn More</button>
+            <div class="skill_cards">
+              <div class="lang_card">J-Unit</div>
+              <div class="lang_card">C-Unit</div>
+              <div class="lang_card">Selenium</div>
+              <div class="lang_card">Mockito</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="section">
+        <div id="show_project">
+          <div class="left_side_project"></div>
+          <div class="right_side_project">
+            <div id="exit_project_btn" onclick="exit_project()">X</div>
+          </div>
+
+          <p></p>
+        </div>
+        <div class="p3">
+          <div class="p3_box1" id="project_card">
+            <div class="project_img">
+              <img src="/images/Frame 2.png" alt="" />
+            </div>
+            <div class="button-group">
+              <h3>API service provider</h3>
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #fff;
+                "
+                class="project_btn"
+                id="project_button"
+                onclick="viewProject()"
+              >
+                View Project
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                View Github
+              </button>
+            </div>
+          </div>
+          <div class="p3_box2" id="project_card">
+            <div class="project_img">
+              <img src="/images/Frame 2.png" alt="" />
+            </div>
+            <div class="button-group">
+              <h3>EZPCBuilder.com</h3>
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #fff;
+                "
+                class="project_btn"
+                id="project_button"
+              >
+                View Project
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                View Github
+              </button>
+            </div>
+          </div>
+          <div class="p3_box3" id="project_card">
+            <div class="project_img">
+              <img src="/images/Frame 2.png" alt="" />
+            </div>
+            <div class="button-group">
+              <h3>C# Phone Shop</h3>
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #fff;
+                "
+                class="project_btn"
+                id="project_button"
+              >
+                View Project
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                View Github
+              </button>
+            </div>
+          </div>
+          <div class="p3_box4" id="project_card">
+            <div class="project_img">
+              <img src="/images/Frame 2.png" alt="" />
+            </div>
+            <div class="button-group">
+              <h3>EZPCBuilder.com</h3>
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #fff;
+                "
+                class="project_btn"
+                id="project_button"
+              >
+                View Project
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                View Github
+              </button>
+            </div>
+          </div>
+          <div class="p3_box5" id="project_card">
+            <div class="project_img">
+              <img src="/images/Frame 2.png" alt="" />
+            </div>
+            <div class="button-group">
+              <h3>EZPCBuilder.com</h3>
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #fff;
+                "
+                class="project_btn"
+                id="project_button"
+              >
+                View Project
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                View Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="p4">
+          <div class="p4_left">
+            <h1>About Me</h1>
+            <p id="p4p">Computer Science Graduate | Software Engineer</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              possimus reiciendis nostrum et vitae amet soluta exercitationem
+              corrupti fugiat enim, tempore aperiam.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+              minima distinctio delectus ex cupiditate alias voluptatum?
+              Voluptatibus optio iste aut minima modi, sapiente asperiores? Nam
+              aut ea veniam maiores debitis?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
+              voluptatem. Porro dolores id unde velit necessitatibus itaque
+              dolor harum quae. Provident dolor neque eius sint, totam
+              perferendis! Ipsa nam nostrum quidem amet illum? Illo beatae
+              consequuntur consequatur modi odio sit?
+            </p>
+
+            <h4>Experience</h4>
+            <br />
+            <br />
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
+              voluptatem. Porro dolores id unde velit necessitatibus itaque
+              dolor harum quae. Provident dolor neque eius sint, totam
+              perferendis! Ipsa nam nostrum quidem amet illum? Illo beatae
+              consequuntur consequatur modi odio sit?
+            </p>
+            <div class="p4_btn_group">
+              <button
+                href="#section3"
+                style="
+                  background-color: transparent;
+                  border: 2px solid #2a9d8f;
+                  color: #2a9d8f;
+                "
+                class="project_btn"
+                id="project_button"
+              >
+                Contact Me
+              </button>
+
+              <button
+                href="#section3"
+                style="background-color: #2a9d8f"
+                class="project_btn"
+                id="project_button"
+              >
+                Download CV
+              </button>
+            </div>
+          </div>
+
+          <div class="p4_right">
+            <h1>Skills</h1>
+            <h4>Java Development |</h4>
+            <p>
+              Three years College Experience, developing console and GUI
+              application using the Java language, along with using Java's build
+              in GUI building framework JavaFX. Along with this, I also
+              developed my final year project using Java JSP's Framework,
+              encorporarting many of Javas serverlet and Patterns
+            </p>
+
+            <h4>C# Development |</h4>
+            <p>
+              Two years C# Experience, in building both console based and GUI
+              applications. In the final two years we learned some of C# most
+              powerfull frameworks like .NET framework along with its
+              accompanied frameworks like .NET Core
+            </p>
+            <h4>PHP Development |</h4>
+            <p>
+              Within the three years of college I have build out many PHP
+              applications, drawn to this language by it's minimal code input
+              and easy to learn syntax. I ahve also build out API services to
+              allow user to fetch and recieve data from a PHP application that
+              is serving as a API
+            </p>
+            <h4>SQL |</h4>
+            <p>
+              With one year of proffesional experience with the SQL language and
+              three years college experience, SQL
+            </p>
+            <h4>Testing |</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+              neque labore. Illo quod quos, repellendus quasi consequuntur porro
+              ex, temporibus esse, natus nisi eos veniam odit modi maiores ut?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="p5">
+          <div class="contact_form_box">
+            <h1 class="contact_form_h1">GET IN TOUCH</h1>
+            <form>
+              <label for="fname"> Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="John Doe"
+              />
+              <label for="lname">Email</label>
+
+              <input
+                type="email"
+                id="lname"
+                required
+                name="lname"
+                placeholder="JohnDoe@gmail.com"
+              />
+              <br />
+              <br />
+
+              <label for="lname">Message</label>
+              <input
+                style="
+                  border: 2px solid #264653;
+                  border-radius: 2px;
+                  height: 20vh;
+                "
+                type="text"
+                required
+                id="form_msg"
+                name="lname"
+              />
+              <button class="form_submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+      integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      new fullpage("#fullPage", {
+        css3: true,
+        autoScrolling: true,
+        navigation: true,
+        anchors: ["section1", "section2", "section3", "section4", "section5"],
+        navigationTooltips: ["Home", "Skills", "Projects", "About", "Contact"],
+        scrollingSpeed: 1100,
+        slideNavigation: true,
+        easing: "easeInOutCubic",
+        touchSensitivity: 15,
+        keyboardScrolling: true,
+        easingcss3: "ease",
+        fitToSection: true,
+        verticalCentered: true,
+        controlArrows: true,
+        //paralaze design options
+        parallaxOptions: {
+          type: "reveal",
+          percentage: 62,
+          property: "translate",
+        },
+
+        //small functions
+      });
+    </script>
+    <script src="/js/app.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+    <script>
+      gsap.from(".p1_hi", {
+        opacity: 0,
+        duration: 1,
+        y: -50,
+        ease: "circ(1, 0.3)",
+      });
+      gsap.from(".p1_me", {
+        opacity: 0,
+        delay: 0.4,
+        duration: 1,
+        x: -50,
+        y: -5,
+      });
+      gsap.from("#anim1", {
+        opacity: 0,
+        delay: 2,
+        duration: 1,
+
+        y: -15,
+        stagger: 0.3,
+      });
+    </script>
+  </body>
+</html>
